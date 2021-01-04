@@ -36,3 +36,20 @@ def binary_search(target, nums):
 
 nums = [0,5,6,7,8,9,10,11,12,20,100]
 print (binary_search(6, nums))
+
+""" Merge Sort """
+
+def merge_sort(list_to_sort):
+    # Base case: lists with fewer than 2 elements are sorted
+    if len(list_to_sort) < 2:
+        return list_to_sort
+    
+    # Step 1: divide the list in half
+    # We use integer division, so we'll never get a "half index"
+    mid_index = len(list_to_sort) // 2
+    left = list_to_sort[:mid_index]
+    right = list_to_sort[mid_index:]
+
+    # Step 2: sort each half
+    sorted_left = merge_sort(left)
+    sorted_right = merge_sort(right)
