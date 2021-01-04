@@ -19,3 +19,16 @@ def binary_search(target, nums):
         distance = ceiling_index - floor_index
         half_distance = distance // 2
         guess_index = floor_index + half_distance
+
+        guess_value = nums[guess_index]
+        if guess_value == target:
+            return True
+        
+        if guess_value > target:
+            # Target is to the left, so move ceiling to the left
+            ceiling_index = guess_index
+        else:
+            # Target is to the right, so move floor to the right
+            floor_index = guess_index
+    
+    return False
