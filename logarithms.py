@@ -1,4 +1,5 @@
 ''' Binary Search - Logarithms '''
+# total time cost of binary search is O(log n)
 
 def binary_search(target, nums):
     """See if target appears in nums """
@@ -32,3 +33,6 @@ def binary_search(target, nums):
             floor_index = guess_index
     
     return False
+
+nums = [0,5,6,7,8,9,10,11,12,20,100]
+print (binary_search(6, nums))
