@@ -37,7 +37,8 @@ def binary_search(target, nums):
 nums = [0,5,6,7,8,9,10,11,12,20,100]
 print (binary_search(6, nums))
 
-""" Merge Sort """
+''' Merge Sort '''
+# Total time cost is O(n log n)
 
 def merge_sort(list_to_sort):
     # Base case: lists with fewer than 2 elements are sorted
@@ -53,3 +54,8 @@ def merge_sort(list_to_sort):
     # Step 2: sort each half
     sorted_left = merge_sort(left)
     sorted_right = merge_sort(right)
+
+    # Step 3: merge the sorted halves
+    sorted_list = []
+    current_index_left = 0
+    current_index_right = 0
