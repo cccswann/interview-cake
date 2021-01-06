@@ -59,3 +59,5 @@ def merge_sort(list_to_sort):
     sorted_list = []
     current_index_left = 0
     current_index_right = 0
+
+    while len(sorted_list) < len(left) + len(right):
