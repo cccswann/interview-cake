@@ -61,3 +61,4 @@ def merge_sort(list_to_sort):
     current_index_right = 0
 
     while len(sorted_list) < len(left) + len(right):
+        if ((current_index_left < len(left)) and
