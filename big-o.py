@@ -22,3 +22,5 @@ def print_all_possible_ordered_pairs(items):
             print(first_item, second_item)
 
 print_all_possible_ordered_pairs([0,6,8,9])
+
+
