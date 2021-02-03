@@ -1,2 +1,2 @@
 # interview-cake
-Interview Cake practice
+Practice for implementing algorithms in Python.
