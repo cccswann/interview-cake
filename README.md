@@ -1,2 +1,2 @@
 # interview-cake
-Practice for implementing algorithms in Python.
+Practicing implementation of algorithms in Python.
