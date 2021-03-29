@@ -1,2 +1,2 @@
 # interview-cake
-Practicing implementation of algorithms in Python.
+Practicing implementation of computer science fundamental concepts, data structures, and algorithms in Python.
